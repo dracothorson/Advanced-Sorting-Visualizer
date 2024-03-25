@@ -133,19 +133,7 @@ class Sock{
         ctx.moveTo(ps[0].loc.x,ps[0].loc.y-this.width*0.7);
         ctx.lineTo(ps[0].loc.x,ps[0].loc.y+this.width*0.3);
         ctx.stroke();
-        /*
-        for(let i=0;i<this.particles.length;i++){
-            this.particles[i].draw(ctx);
-        }
-        for(let i=0;i<this.segments.length;i++){
-            this.segments[i].draw(ctx);
-        }
-
-        ctx.strokeStyle="black";
-        ctx.beginPath();
-        ctx.rect(left,y,this.width,this.height);
-        ctx.stroke();
-        */
+              
         return changed;
     }
 }
