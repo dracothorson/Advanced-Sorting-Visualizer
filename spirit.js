@@ -220,3 +220,4 @@ class Spirit{
         return changed;
     }
 }
+

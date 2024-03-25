@@ -14,3 +14,4 @@ Advanced Sorting Visualizer is a JavaScript project designed to visually demonst
 - HTML
 - CSS
 - JavaScript
+
